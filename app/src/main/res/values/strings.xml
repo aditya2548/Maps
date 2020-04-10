@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mapbox</string>
+    <string name="access_token">pk.eyJ1IjoiYWRpdHlhNDMwIiwiYSI6ImNrOHB1c3VmcjAyaXczbm55ajRzeDBldGkifQ.FpIV1irwej--hJX9uSyWGA</string>
+    <string name="my_loc">MY_LOC</string>
+    <string name="current_location">"Current location: "</string>
+    <string name="user_location_permission_explanation">Explain</string>
+    <string name="user_location_permission_not_granted">Permission denied</string>
+    <string name="select_location">SELECT LOCATION</string>
+    <string name="cancel">CANCEL</string>
+    <string name="no_results">Sorry, no results found</string>
+    <string name="confirm">CONFIRM</string>
+</resources>
