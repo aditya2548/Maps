@@ -7,4 +7,10 @@
     <color name="mapboxWhite">#ffffff</color>
     <color name="mapboxBlue">#4264fb</color>
     <color name="mapboxGrayLight">#c6d2e1</color>
+
+    <color name="button">#E4FF6D00</color>
+    <color name="buttonripple">#DD2C00</color>
+    <color name="buttonsec">#304FFE</color>
+    <color name="buttonsecripple">#6200EA</color>
+
 </resources>

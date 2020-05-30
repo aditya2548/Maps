@@ -187,7 +187,7 @@ public class Search extends AppCompatActivity implements OnMapReadyCallback, OnL
 
                             // Transform the appearance of the button to become the cancel button
                             selectLocationButton.setBackgroundColor(
-                                    ContextCompat.getColor(Search.this, R.color.colorAccent));
+                                    ContextCompat.getColor(Search.this, R.color.buttonripple));
                             selectLocationButton.setText(getString(R.string.cancel));
 
                             // Show the SymbolLayer icon to represent the selected map location
@@ -209,7 +209,7 @@ public class Search extends AppCompatActivity implements OnMapReadyCallback, OnL
                         } else {
                             // Switch the button appearance back to select a location.
                             selectLocationButton.setBackgroundColor(
-                                    ContextCompat.getColor(Search.this, R.color.colorPrimary));
+                                    ContextCompat.getColor(Search.this, R.color.button));
                             selectLocationButton.setText(getString(R.string.select_location));
 
                             // Show the red hovering ImageView marker
@@ -334,7 +334,7 @@ public class Search extends AppCompatActivity implements OnMapReadyCallback, OnL
                 if (droppedMarkerLayer != null) {
                     // Switch the button appearance back to select a location.
                     selectLocationButton.setBackgroundColor(
-                            ContextCompat.getColor(Search.this, R.color.colorPrimary));
+                            ContextCompat.getColor(Search.this, R.color.button));
                     selectLocationButton.setText(getString(R.string.select_location));
 
                     // Show the red hovering ImageView marker
